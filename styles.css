@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: grey;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.section#home {
+    background-color: #3f3a3a;
+}
+
+.section#about {
+    background-color: #645d5d;
+}
+
+.section#portfolio {
+    background-color: #868383;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.project {
+    margin: 2rem 0;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+
+.section h2 {
+    font-size: 2em; /* Adjust the size as needed */
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 1.2em; /* Adjust the size as needed */
+    line-height: 1.6; /* Adjust the line height for better readability */
+}
+
+.skills-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 10px; /* Add some space between items */
+}
+
+.skills-list li {
+    background-color: #3e3939; /* Dark background color */
+    color: white; /* White text color */
+    padding: 20px; /* Add some padding */
+    border-radius: 10px; /* Rounded corners */
+    flex: 1 1 calc(25% - 10px); /* Adjust width and spacing */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for better appearance */
+}
+#contact {
+    background-color: #3e3939; /* Dark background color */
+    color: white; /* White text color for better readability */
+    text-align: center; /* Center the text */
+    padding: 40px 20px; /* Add some padding for better spacing */
+}
+
+#contact h2 {
+    font-size: 2em; /* Adjust the size as needed */
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2em; /* Adjust the size as needed */
+    margin: 10px 0; /* Add some margin for spacing */
+}
+
+#contact a {
+    color: #ffcc00; /* Change the link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+#contact a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
